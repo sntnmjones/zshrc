@@ -19,3 +19,13 @@ alias gd='git --no-pager diff'
 function cd {
     builtin cd "$@" && ls
 }
+
+###############################################################################
+# MISC
+###############################################################################
+
+#
+# History
+#
+export HISTSIZE=1000000000
+setopt INC_APPEND_HISTORY   # Update history immediately
