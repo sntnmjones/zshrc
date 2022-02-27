@@ -11,6 +11,11 @@ alias gs="git status"
 alias gitoneline="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias gd='git --no-pager diff'
 
+#
+# Misc
+#
+alias h="history | grep $1"
+
 ###############################################################################
 # FUNCTIONS
 ###############################################################################
