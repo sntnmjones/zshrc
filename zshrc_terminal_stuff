@@ -39,3 +39,10 @@ function h {
 #
 export HISTSIZE=1000000000
 setopt INC_APPEND_HISTORY   # Update history immediately
+
+#
+# Rootless Docker
+#
+export PATH=/usr/bin:$PATH
+# Some applications may require the following environment variable too:
+export DOCKER_HOST=unix:///run/user/1000/docker.sock
